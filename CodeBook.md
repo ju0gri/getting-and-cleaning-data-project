@@ -5,6 +5,24 @@ This document describes the code inside run_analysis.r.
 The purpose of the script is to collect, work with, and clean this data set https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. 
 The resulting data set is stored in this repository under TidyDataset.txt and is described below.
 
+## Variables
+
+------------------------------
+
+Variable         | Description
+-----------------|------------
+subject          | ID the subject who performed the activity for each window sample. Range [1 - 30].
+activity         | Activity name
+timefreq         | Time signal or frequency signal (Time or Freq)
+instrument       | Instrument (Accelerometer or Gyroscope)
+acceleration     | Acceleration signal (Body or Gravity)
+variable         | Variable (Mean or STD)
+jerk             | Jerk signal
+magnitude        | Magnitude of the signals
+axis             | Axial signals in the X, Y and Z directions (X, Y, or Z)
+count            | Count of data points
+average          | Average of each variable for each activity and each subject
+
 ## Tidy data set
 
 ### Description
