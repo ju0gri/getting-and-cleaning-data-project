@@ -1,3 +1,7 @@
+library(dplyr)
+library(data.table)
+library(tidyr)
+
 path <- getwd()
 zip_file <- "UCI_HAR_Dataset.zip"
 
@@ -144,4 +148,4 @@ tidy_full_table[, .N, by = c(names(tidy_full_table)[grep("timefreq|instrument|je
 
 tidy_dataset_file <- file.path(path, "TidyDataset.txt")
 
-write.table(tidy_full_table, tidy_dataset_file, quote = FALSE, sep = "\t")
+write.table(tidy_full_table, tidy_dataset_file, quote = FALSE, row.names=FALSE, sep = "\t")
