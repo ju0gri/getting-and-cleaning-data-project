@@ -3,11 +3,11 @@
 This document describes the code inside run_analysis.r.
 
 The purpose of the script is to collect, work with, and clean this data set https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. 
+
 The resulting data set is stored in this repository under TidyDataset.txt and is described below.
 
 ## Variables
 
-------------------------------
 
 Variable         | Description
 -----------------|------------
