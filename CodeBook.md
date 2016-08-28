@@ -42,7 +42,7 @@ Dataset contains:	2310 obs. of  11 variables:
 
 ### Dataset summary
  | subject | activity | timefreq | acceleration | instrument | jerk | magnitude | variable | axis | count | average |
- | ------- |:---------|:---------|:-------------|:-----------|:-----|:----------|:---------|:-----|:-----:| -------:|
+ | ------- | -------- | -------- | ------------ | ---------- | ---- | --------- | -------- | ---- | ----- | ------- |
  | 11     : 132 | LAYING            :462 | time:1400    | NA     : 910    | accelerometer:1400    | NA  :1400    | NA  :1680    | mean:1155    | NA:630    | Min.   :  3.0    | Min.   :-0.9941 |
  | 12     : 132 | SITTING           :396    | freq: 910    | body   :1120    | gyroscope    : 910    | jerk: 910    | magnitude: 630    | std :1155    | X :560    | 1st Qu.:276.0    | 1st Qu.:-0.9632 |
  | 19     : 132 | STANDING          :396    || gravity: 280   ||||| Y :560    | Median :323.0    | Median :-0.4623  |
@@ -52,8 +52,8 @@ Dataset contains:	2310 obs. of  11 variables:
  
  ### Dataset features combinations
  
- | timefreq | | instrument |jerk |magnitude|variable|axis| N|
- | -------- |:-----------|:----|:--------|:-------|:---|:-:|
+ | timefreq | instrument |jerk |magnitude|variable|axis| N|
+ | -------- | ---------- | --- | ------- | ------ | -- | - |
 |     time |  |   gyroscope |   NA |        NA |     mean |    X |  35 |
  |     time |     gyroscope |   NA |        NA |     mean |    Y |  35 |
  |     time |     gyroscope |   NA |        NA |     mean |    Z |  35 |
