@@ -3,24 +3,7 @@
 This document describes the code inside run_analysis.r.
 
 The purpose of the script is to collect, work with, and clean this data set https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. 
-The resulting data set is stored in this repository under TidyDataset.txt and is described below:
-
-## Implementation
-
-* download the original dataset if not already downloaded
-* unzip original dataset if not already unzipped
-* read test and train sets and rbind them
-* read test and train labels and rbind them
-* read activity labels
-* read test and train subjects and rbind them
-* read features set
-* merge sets, labels and subjects into one table
-* merge the resulting table with the features table by feature number
-* merge the resulting table with the activity labels table
-* melt the table
-* merge with features table
-* create factors for each feature with 1, 2 and 3 characteristics
-* save the resulting table into a file
+The resulting data set is stored in this repository under TidyDataset.txt and is described below.
 
 ## Tidy data set
 
